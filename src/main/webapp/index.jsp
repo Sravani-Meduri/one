@@ -448,7 +448,7 @@ export default function NexusShop() {
           </section>
         </main>
 
-        <footer className="border-t border-slate-200 bg-white py-14 dark:border-white/10 dark:bg-slate-950">
+        <footer className="border-t border-slate-300 bg-white py-14 dark:border-white/10 dark:bg-slate-950">
           <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
             <div><div className="font-display flex items-center gap-2 text-xl font-extrabold"><span className="grid h-9 w-9 place-items-center rounded-xl bg-violet-600 text-white"><ShoppingBag className="h-5 w-5" /></span>NexusShop</div><p className="mt-4 max-w-xs text-sm leading-6 text-slate-500 dark:text-slate-400">Useful products, honest value, and a better online shopping experience.</p></div>
             {[{ title: "Shop", links: ["New arrivals", "Best sellers", "Deals", "Gift cards"] }, { title: "Help", links: ["Delivery", "Returns", "Contact", "FAQs"] }, { title: "Company", links: ["About", "Careers", "Privacy", "Terms"] }].map((group) => <div key={group.title}><h3 className="text-sm font-extrabold">{group.title}</h3><ul className="mt-4 space-y-3">{group.links.map((link) => <li key={link}><a href="#top" className="text-sm text-slate-500 hover:text-violet-600 dark:text-slate-400 dark:hover:text-violet-400">{link}</a></li>)}</ul></div>)}
