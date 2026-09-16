@@ -1557,7 +1557,7 @@
 
             if (btnEl) {
                 const orig = btnEl.innerHTML;
-                btnEl.innerHTML = '<i class="fas fa-check"></em> Added';
+                btnEl.innerHTML = '<em class="fas fa-check"></em> Added';
                 btnEl.classList.add('added');
                 setTimeout(() => {
                     btnEl.innerHTML = orig;
@@ -1626,14 +1626,14 @@
         mobileToggle.addEventListener('click', () => {
             const isOpen = mobileMenu.style.display === 'block';
             mobileMenu.style.display = isOpen ? 'none' : 'block';
-            mobileToggle.innerHTML = isOpen ? '<i class="fas fa-bars"></em>' : '<i class="fas fa-times"></em>';
+            mobileToggle.innerHTML = isOpen ? '<em class="fas fa-bars"></em>' : '<em class="fas fa-times"></em>';
         });
 
         // Close mobile menu on link click
         mobileMenu.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.style.display = 'none';
-                mobileToggle.innerHTML = '<i class="fas fa-bars"></em>';
+                mobileToggle.innerHTML = '<em class="fas fa-bars"></em>';
             });
         });
 
@@ -1650,7 +1650,7 @@
             cartCount++;
             updateCartCount();
             const orig = this.innerHTML;
-            this.innerHTML = '<i class="fas fa-check"></em> Added!';
+            this.innerHTML = '<em class="fas fa-check"></em> Added!';
             this.style.background = 'var(--success)';
             setTimeout(() => {
                 this.innerHTML = orig;
@@ -1697,10 +1697,10 @@
         window.addEventListener('resize', () => {
             if (window.innerWidth > 768) {
                 mobileMenu.style.display = 'none';
-                mobileToggle.innerHTML = '<i class="fas fa-bars"></em>';
+                mobileToggle.innerHTML = '<em class="fas fa-bars"></em>';
             }
         });
-
+    <script>
         console.log('🚀 NexusShop — user‑friendly e‑commerce demo loaded.');
     </script>
 
