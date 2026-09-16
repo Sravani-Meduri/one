@@ -93,7 +93,7 @@
             border: 0;
         }
 
-        /* ========== BUTTONS ========== */
+        /* ========== BUTTONS =============== */
         .btn {
             display: inline-flex;
             align-items: center;
