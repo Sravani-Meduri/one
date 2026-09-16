@@ -1136,26 +1136,26 @@
 
             <nav class="main-nav" id="mainNav" aria-label="Main navigation">
                 <ul>
-                    <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="#categories"> class="fas fa-th-large"></i> Categories</a></li>
-                    <li><a href="#products"><i class="fas fa-fire"></i> Trending</a></li>
-                    <li><a href="#deals"><i class="fas fa-tag"></i> Deals</a></li>
-                    <li><a href="#testimonials"><i class="fas fa-star"></i> Reviews</a></li>
+                    <li><a href="#" class="active"><i class="fas fa-home"></span> Home</a></li>
+                    <li><a href="#categories"> class="fas fa-th-large"></span> Categories</a></li>
+                    <li><a href="#products"><i class="fas fa-fire"></span> Trending</a></li>
+                    <li><a href="#deals"><i class="fas fa-tag"></span> Deals</a></li>
+                    <li><a href="#testimonials"><i class="fas fa-star"></span> Reviews</a></li>
                 </ul>
             </nav>
 
             <div style="display:flex;align-items:center;gap:10px;">
                 <div class="search-wrap" role="search">
                     <input type="search" id="searchInput" placeholder="Search products..." aria-label="Search" />
-                    <button id="searchBtn" aria-label="Submit search"><i class="fas fa-search"></i></button>
+                    <button id="searchBtn" aria-label="Submit search"><i class="fas fa-search"></span></button>
                 </div>
 
                 <div class="header-actions">
-                    <button class="icon-btn" title="Account" aria-label="Account"><i class="far fa-user"></i></button>
-                    <button class="icon-btn" title="Wishlist" aria-label="Wishlist"><i class="far fa-heart"></i></button>
+                    <button class="icon-btn" title="Account" aria-label="Account"><i class="far fa-user"></span></button>
+                    <button class="icon-btn" title="Wishlist" aria-label="Wishlist"><i class="far fa-heart"></span></button>
                     <div class="cart-wrap">
                         <button class="icon-btn" id="cartBtn" title="Cart" aria-label="Cart">
-                            <i class="fas fa-shopping-bag"></i>
+                            <i class="fas fa-shopping-bag"></span>
                         </button>
                         <span class="cart-count" id="cartCount">0</span>
                     </div>
@@ -1167,13 +1167,13 @@
         <div id="mobileMenu">
             <div class="container">
                 <ul>
-                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="#categories"><i class="fas fa-th-large"></i> Categories</a></li>
-                    <li><a href="#products"><i class="fas fa-fire"></i> Trending</a></li>
-                    <li><a href="#deals"><i class="fas fa-tag"></i> Deals</a></li>
-                    <li><a href="#testimonials"><i class="fas fa-star"></i> Reviews</a></li>
-                    <li><a href="#"><i class="far fa-user"></i> Account</a></li>
-                    <li><a href="#"><i class="far fa-heart"></i> Wishlist</a></li>
+                    <li><a href="#"><i class="fas fa-home"></span> Home</a></li>
+                    <li><a href="#categories"><i class="fas fa-th-large"></span> Categories</a></li>
+                    <li><a href="#products"><i class="fas fa-fire"></span> Trending</a></li>
+                    <li><a href="#deals"><i class="fas fa-tag"></span> Deals</a></li>
+                    <li><a href="#testimonials"><i class="fas fa-star"></span> Reviews</a></li>
+                    <li><a href="#"><i class="far fa-user"></span> Account</a></li>
+                    <li><a href="#"><i class="far fa-heart"></span> Wishlist</a></li>
                 </ul>
             </div>
         </div>
@@ -1185,12 +1185,12 @@
         <!-- HERO -->
         <section class="hero" aria-label="Hero banner">
             <div class="container">
-                <div class="badge"><i class="fas fa-sparkles"></i> New Collection 2026</div>
+                <div class="badge"><i class="fas fa-sparkles"></span> New Collection 2026</div>
                 <h1>Discover Premium <br>Essentials</h1>
                 <p>Curated fashion, tech & accessories with free shipping on your first order. Limited-time deals await.</p>
                 <div class="actions">
-                    <button class="btn btn-primary" id="shopNow"><i class="fas fa-arrow-right"></i> Shop Now</button>
-                    <button class="btn btn-ghost" id="exploreDeals"><i class="fas fa-clock"></i> Explore Deals</button>
+                    <button class="btn btn-primary" id="shopNow"><i class="fas fa-arrow-right"></span> Shop Now</button>
+                    <button class="btn btn-ghost" id="exploreDeals"><i class="fas fa-clock"></span> Explore Deals</button>
                 </div>
             </div>
         </section>
@@ -1203,7 +1203,7 @@
                         <h2 id="cat-title">Browse Categories</h2>
                         <p>Find exactly what you're looking for</p>
                     </div>
-                    <a href="#" class="view-all">All Categories <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="view-all">All Categories <i class="fas fa-arrow-right"></span></a>
                 </div>
                 <div class="categories-grid" id="categoriesGrid" aria-live="polite"></div>
             </div>
@@ -1217,7 +1217,7 @@
                         <h2 id="prod-title">Trending Now</h2>
                         <p>What's hot — popular picks from our community</p>
                     </div>
-                    <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></span></a>
                 </div>
                 <div class="products-grid" id="productsGrid" aria-live="polite"></div>
             </div>
@@ -1237,7 +1237,7 @@
                         <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80" alt="MacBook Air M2" loading="lazy">
                     </div>
                     <div class="deal-content">
-                        <span class="tag"><i class="fas fa-bolt"></i> Limited Offer</span>
+                        <span class="tag"><i class="fas fa-bolt"></span> Limited Offer</span>
                         <h3>MacBook Air M2</h3>
                         <p class="desc">Thin, light, and incredibly powerful — the M2 chip redefines performance.</p>
                         <div>
@@ -1262,7 +1262,7 @@
                                 <div class="label">Secs</div>
                             </div>
                         </div>
-                        <button class="btn btn-primary" id="buyDeal"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                        <button class="btn btn-primary" id="buyDeal"><i class="fas fa-cart-plus"></span> Add to Cart</button>
                     </div>
                 </div>
             </div>
@@ -1291,7 +1291,7 @@
                     </div>
                     <form id="newsletterForm" onsubmit="return false;">
                         <input type="email" id="newsletterEmail" placeholder="Enter your email" aria-label="Email" required />
-                        <button class="btn" id="subscribeBtn"><i class="fas fa-paper-plane"></i> Subscribe</button>
+                        <button class="btn" id="subscribeBtn"><i class="fas fa-paper-plane"></span> Subscribe</button>
                         <div id="newsletterMsg"></div>
                     </form>
                 </div>
@@ -1306,15 +1306,15 @@
             <div class="footer-grid">
                 <div class="brand-col">
                     <div class="brand">
-                        <i class="fas fa-store-alt"></i>
+                        <i class="fas fa-store-alt"></span>
                         <span>Nexus<span class="accent">Shop</span></span>
                     </div>
                     <p>Modern e‑commerce demo built with care. Quality products, seamless experience.</p>
                     <div class="socials">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></span></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></span></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></span></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></span></a>
                     </div>
                 </div>
                 <div class="col">
@@ -1446,7 +1446,7 @@
                 const el = document.createElement('div');
                 el.className = 'cat-card';
                 el.innerHTML = `
-                    <div class="icon-wrap"><i class="fas ${cat.icon}"></i></div>
+                    <div class="icon-wrap"><i class="fas ${cat.icon}"></span></div>
                     <h4>${cat.name}</h4>
                     <div class="count">${cat.count} items</div>
                 `;
@@ -1478,7 +1478,7 @@
                     <div class="img-wrap">
                         <img src="${p.img}" alt="${escapeHtml(p.title)}" loading="lazy">
                         ${badgeHtml}
-                        <button class="wish-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                        <button class="wish-btn" aria-label="Add to wishlist"><i class="far fa-heart"></span></button>
                     </div>
                     <div class="body">
                         <div class="category-tag">${p.category}</div>
@@ -1492,7 +1492,7 @@
                         </div>
                     </div>
                     <div class="footer">
-                        <button class="add-btn" data-id="${p.id}"><i class="fas fa-cart-plus"></i> Add</button>
+                        <button class="add-btn" data-id="${p.id}"><i class="fas fa-cart-plus"></span> Add</button>
                     </div>
                 `;
                 productsGrid.appendChild(el);
@@ -1557,7 +1557,7 @@
 
             if (btnEl) {
                 const orig = btnEl.innerHTML;
-                btnEl.innerHTML = '<i class="fas fa-check"></i> Added';
+                btnEl.innerHTML = '<i class="fas fa-check"></span> Added';
                 btnEl.classList.add('added');
                 setTimeout(() => {
                     btnEl.innerHTML = orig;
@@ -1626,14 +1626,14 @@
         mobileToggle.addEventListener('click', () => {
             const isOpen = mobileMenu.style.display === 'block';
             mobileMenu.style.display = isOpen ? 'none' : 'block';
-            mobileToggle.innerHTML = isOpen ? '<i class="fas fa-bars"></i>' : '<i class="fas fa-times"></i>';
+            mobileToggle.innerHTML = isOpen ? '<i class="fas fa-bars"></span>' : '<i class="fas fa-times"></span>';
         });
 
         // Close mobile menu on link click
         mobileMenu.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.style.display = 'none';
-                mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+                mobileToggle.innerHTML = '<i class="fas fa-bars"></span>';
             });
         });
 
@@ -1650,7 +1650,7 @@
             cartCount++;
             updateCartCount();
             const orig = this.innerHTML;
-            this.innerHTML = '<i class="fas fa-check"></i> Added!';
+            this.innerHTML = '<i class="fas fa-check"></span> Added!';
             this.style.background = 'var(--success)';
             setTimeout(() => {
                 this.innerHTML = orig;
@@ -1697,7 +1697,7 @@
         window.addEventListener('resize', () => {
             if (window.innerWidth > 768) {
                 mobileMenu.style.display = 'none';
-                mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+                mobileToggle.innerHTML = '<i class="fas fa-bars"></span>';
             }
         });
 
