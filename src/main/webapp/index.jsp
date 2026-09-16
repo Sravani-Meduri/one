@@ -1137,7 +1137,7 @@
             <nav class="main-nav" id="mainNav" aria-label="Main navigation">
                 <ul>
                     <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="#categories"><i class="fas fa-th-large"></i> Categories</a></li>
+                    <li><a href="#categories"> class="fas fa-th-large"></i> Categories</a></li>
                     <li><a href="#products"><i class="fas fa-fire"></i> Trending</a></li>
                     <li><a href="#deals"><i class="fas fa-tag"></i> Deals</a></li>
                     <li><a href="#testimonials"><i class="fas fa-star"></i> Reviews</a></li>
